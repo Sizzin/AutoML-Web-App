@@ -1,11 +1,13 @@
-Cloud Registry Build
+# Deploying to Cloud Run
+
+### Cloud Registry Build
 
 ```
-gcloud builds submit --tag gcr.io/aidho-mvp/automl
+gcloud builds submit --tag gcr.io/project_id/service_name
 ```
 
-Cloud Run Deploy
+### Cloud Run Deploy
 
 ```
-gcloud run deploy --image gcr.io/aidho-mvp/automl
+gcloud run deploy --image gcr.io/project_id/service_name
 ```
