@@ -1,4 +1,5 @@
 pandas==1.1.2
 pycaret==2.3.3
 requests==2.26.0
+rich==10.7.0
 streamlit==0.87.0

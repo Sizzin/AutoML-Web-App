@@ -3,7 +3,7 @@ import streamlit as st
 
 import custom_warning
 
-def get_api(url):
+def get_api(url: str) -> rq.Response:
     """A simple GET request that return the Response object of the request"""
     return rq.get(url)
 
